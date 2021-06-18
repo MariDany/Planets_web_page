@@ -48,6 +48,17 @@ nav .nav-links ul li img:hover{
     transform: translateY(-10px);
 }
 
+.favicon-style{
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.favicon-style:focus,
+.favicon-style:hover{
+    transform: translateY(-10px);
+}
+
 section{
     height: 100vh;
     overflow: hidden;
@@ -291,3 +302,14 @@ section{
       position: absolute;
   }
 
+  .footer{ 
+      padding-top: 5%;
+      text-align: center;
+      color: #fff;
+  }
+
+  .footer a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+  }
